@@ -10,18 +10,19 @@
     
     using namespace std;
 
-#define STDDAY	3
+const int STDDAY = 3; // hours
+
+int printUsage(float);
 
 int main(int argc, char *argv[])
 {
-    float P = 1.00;
+    float Payment = 1.00;
+    float Worth = 0.0000;
     int responsecode;
     
     if (argc<2)
     {
-        cout << "Usage: payd <day> <worth>" << '\n'; // day on task, your worth
-        cout << "Current pay rate: $" << P << endl; // else the default worth
-        responsecode = 1;
+        responsecode = printUsage(Payment);
     }
     else
     {
@@ -29,14 +30,23 @@ int main(int argc, char *argv[])
         float D = strtod(argv[1], NULL) * STDDAY;
 
 	if(argc<3) // heading off segmentation fault when worth is not defined
-		argv[3] = 0;
-	// determine hourly rate of intrest
-        float W = strtod(argv[2], NULL) / 100 / STDDAY;
+	    Worth = 0.00000000;
+	else
+	    // determine hourly rate of intrest
+            Worth = strtod(argv[2], NULL) / 100 / STDDAY;
             
         for (float hours = D; hours > 0; hours-- )
-            P = P * W + P;
-        cout << "Hourly pay $" << P << endl; // display today's hourly rate
+            Payment = Payment * Worth + Payment;
+        cout << "Hourly pay $" << Payment << endl; // display new hourly rate
         responsecode = 0;
     } 
     return responsecode;
 }
+
+int printUsage(float Payment)
+{
+    cout << "Usage: payd <day> <worth>" << '\n'; // day on task, your worth
+    cout << "Current pay rate: $" << Payment << endl; // else the default worth
+    return 1;
+}
+
