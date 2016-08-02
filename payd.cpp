@@ -10,25 +10,33 @@
     
     using namespace std;
 
+#define STDDAY	3
+
 int main(int argc, char *argv[])
 {
     float P = 1.00;
     int responsecode;
     
-    if (argc > 0)
+    if (argc<2)
     {
-        float D = strtod(argv[1], NULL) * 3 // multiply by coding hours in an avg day
-        float R = strtod(argv[2], NULL) / 100 / 3 // determine hourly rate of intrest
-            
-        for (float hours = D; hours > 0; hours-- )
-            P = P * R + P;
-        cout << "Hourly pay $" << P << endl; // display today's hourly rate
-        responsecode = 0;
-    } else
-    {
-        cout << "Usage: payd <day> <worth>" << endl; // day on task, your worth
+        cout << "Usage: payd <day> <worth>" << '\n'; // day on task, your worth
         cout << "Current pay rate: $" << P << endl; // else the default worth
         responsecode = 1;
     }
+    else
+    {
+	// multiply first input by average # of coding hours in an standard day
+        float D = strtod(argv[1], NULL) * STDDAY;
+
+	if(argc<3) // heading off segmentation fault when worth is not defined
+		argv[3] = 0;
+	// determine hourly rate of intrest
+        float W = strtod(argv[2], NULL) / 100 / STDDAY;
+            
+        for (float hours = D; hours > 0; hours-- )
+            P = P * W + P;
+        cout << "Hourly pay $" << P << endl; // display today's hourly rate
+        responsecode = 0;
+    } 
     return responsecode;
 }
