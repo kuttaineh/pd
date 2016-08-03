@@ -29,10 +29,8 @@ int main(int argc, char *argv[])
 	// multiply first input by average # of coding hours in a standard day
         float D = strtod(argv[1], NULL) * STDDAY;
 
-	if(argc<3) // heading off segmentation fault when worth is not defined
-	    Worth = 0.00000000;
-	else
-	    // determine hourly rate of interest
+	if(argc<3) // heading off Segmentation fault when worth is not defined
+	else // determine hourly rate of interest
             Worth = strtod(argv[2], NULL) / 100 / STDDAY;
             
         for (float hours = D; hours > 0; hours-- )
