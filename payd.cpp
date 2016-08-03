@@ -26,13 +26,13 @@ int main(int argc, char *argv[])
     }
     else
     {
-	// multiply first input by average # of coding hours in an standard day
+	// multiply first input by average # of coding hours in a standard day
         float D = strtod(argv[1], NULL) * STDDAY;
 
 	if(argc<3) // heading off segmentation fault when worth is not defined
 	    Worth = 0.00000000;
 	else
-	    // determine hourly rate of intrest
+	    // determine hourly rate of interest
             Worth = strtod(argv[2], NULL) / 100 / STDDAY;
             
         for (float hours = D; hours > 0; hours-- )
@@ -45,8 +45,8 @@ int main(int argc, char *argv[])
 
 int printUsage(float Payment)
 {
-    cout << "Usage: payd <day> <worth>" << '\n'; // day on task, your worth
-    cout << "Current pay rate: $" << Payment << endl; // else the default worth
+    cout << "Usage: payd <day> <worth>\n"; // day on task, your worth
+    cout << "Current pay rate: $" << Payment << endl; // else initial
     return 1;
 }
 
