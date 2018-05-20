@@ -16,7 +16,7 @@ int printUsage(float);
 
 int main(int argc, char *argv[])
 {
-    float Pay = 1.00; // hourly
+    float Pay = 0.01; // hourly
     float Worth = 0.0000;
     int responsecode;
     
