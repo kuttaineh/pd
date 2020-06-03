@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
             
         for (float hours = D; hours > 0; hours-- )
             Pay = Pay * Worth + Pay;
-        cout << "Hourly pay $" << Pay << endl; // display new hourly rate
+        cout << "Hourly pay ₿" << Pay << endl; // display new hourly rate
         responsecode = 0;
     } 
     return responsecode;
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 int printUsage(float Pay)
 {
     cout << "Usage: payd <day> <worth>\n"; // day on task, your worth
-    cout << "Current pay rate: $" << Pay << endl; // else initial
+    cout << "Current pay rate: ₿" << Pay << endl; // else initial
     return 1;
 }
 
