@@ -26,8 +26,9 @@ int main(int argc, char *argv[])
     }
     else
     {
+        int Day = ((strtod(argv[1], NULL))-1); // accounting for C's 0 index
 	// multiply first input by average # of coding hours in a standard day
-        float D = strtod(argv[1], NULL) * STDDAY;
+        float D = Day * STDDAY;
 
 	if(argc<3); // heading off Segmentation fault when worth is not user defined
 	else // determine hourly rate of interest
