@@ -10,12 +10,11 @@ g++ -o payd payd.cpp
 ```
 
 ## Usage
+Payd returns a new hourly rate of pay each day.
 ```
 ./payd <day> <worth>
 ```
 **payd** asks for two variables: your day on task and your self-determined worth while performing that day (grade yourself)
 
-ie: `./payd 2 100`
+Example: `./payd 2 100`
 Interpretation: On day 2 of task I gave 100%
-
-payd returns a new hourly rate of pay each day.
