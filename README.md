@@ -4,7 +4,7 @@ An amorative payment determiner
 
 ## Installation
 ```
-git clone https://github.com/kuttaineh/payd.cpp
+git clone https://github.com/kuttaineh/payd.git
 cd payd
 g++ -o payd payd.cpp
 ```
