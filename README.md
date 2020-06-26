@@ -22,4 +22,4 @@ Read: On day 2 of task I gave 100%
 Whether it is the worker, the employer, or some negotiated final value between the two which determines the worth of the work performed is matter left to the parties involved.
 
 ## Motivation
-Payd is designed to get things done. It's an ultimate motivator to project manage works inadvance so that jobs are prepaired, to the extent possible, in advance to be as straightforward and therefore as easily completed on the backend as possible. There is an inherent financial incentive to create as simple of a development roadmap as necessary so as to produce outcomes in the shortest ammount of time possible. 
+Payd is designed to get things done. It's an ultimate motivator to project manage works inadvance so that jobs are prepaired, to the extent possible, to be as straightforward and therefore as easily completed on the backend as possible. There is an inherent financial incentive to create as simple of a development roadmap as necessary so as to produce outcomes in the shortest ammount of time possible. 
