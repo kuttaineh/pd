@@ -14,7 +14,7 @@ Payd returns a new hourly rate of pay each day.
 ```
 ./payd <day> <worth>
 ```
-Asks for two variables: day on task and performance worth for the day.
+Asks for two variables: day on task and value-added for the day.
 
 Example: `./payd 2 100`
 Read: On day 2 of task I/you gave 100% towards the task at hand.
