@@ -17,7 +17,7 @@ Payd returns a new hourly rate of pay each day.
 Asks for two variables: day on task and performance worth for the day.
 
 Example: `./payd 2 100`
-Read: On day 2 of task I/you gave 100%
+Read: On day 2 of task I/you gave 100% towards the task at hand.
 
 Whether it is the employee, the employer, or some negotiated final value between the two which determines the worth of the work performed is a matter left to the parties involved.
 
