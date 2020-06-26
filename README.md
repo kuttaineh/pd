@@ -22,4 +22,4 @@ Read: On day 2 of task I/you gave 100% towards the task at hand.
 Whether it is the employee, the employer, or some negotiated final value between the two which determines the worth of the work performed is a matter left to the parties involved.
 
 ## Motivation
-For project managers and software engineers to prepair good works in advance: these are motivated, to the extent possible, to be as straightforward in the production of their artifacts as possible, reducing the task of implimentation to be completed on the backend quickly. This tool creates an inherent financial incentive to provide as simple, yet complete, a development roadmap as necessary so as to produce software units in the most efficient way possible. 
+For project managers and software engineers to prepair good works in advance: these are motivated to be as straightforward as possible with their artifacts, reducing the task of implimentation to be completed in code quickly. This tool creates an inherent financial incentive to provide as simple, yet complete, a development roadmap as necessary so as to produce software units in the most efficient way possible. 
