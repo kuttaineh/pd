@@ -3,7 +3,7 @@ An amorative payment determiner
 >Because your time increases in value the longer you're on project.
 
 ## Vision
-For entrepreneurs and other potential product owners, these can offer future returns to programmers in the form of a security composed of a record of work with determined daily worth contributions. So in effect programmers would be lending their labor in exchange for a promissory note, the value of which is determined by this tool.
+For entrepreneurs and other potential product owners: these can offer future returns to programmers in the form of a security composed of a record of work with determined daily worth contributions. So in effect programmers would be lending their labor in exchange for a promissory note, the value of which is determined by this tool.
 
 ## Motivation
 For project managers and software engineers to prepare good works in advance: thru payd, these are motivated to be as straightforward as possible with their artifacts, reducing the task of implementation to be completed in code quickly. This tool creates an inherent financial incentive to provide as simple, yet complete, a development roadmap as necessary so as to produce software units in the most efficient way possible. 
