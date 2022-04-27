@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 
 int printUsage(float Pay)
 {
-    cout << "Usage: payd <day> <worth>\n"; // day on task, your work's worth
+    cout << "Usage: payd DAY WORTH\n"; // day on task, your work's worth
     cout << "Current pay rate: ₿" << Pay << endl; // else initial
     return 1;
 }
