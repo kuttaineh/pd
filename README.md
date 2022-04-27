@@ -18,7 +18,7 @@ g++ -o payd payd.cpp
 ## Usage
 Payd returns a new hourly rate of pay each day.
 ```
-./payd <day> <worth>
+./payd DAY WORTH
 ```
 Asks for two variables: day on task and value-added for the day.
 
