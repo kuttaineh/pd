@@ -13,16 +13,17 @@ For project managers and software engineers to prepare good works in advance: th
 git clone https://github.com/kuttaineh/payd.git
 cd payd
 g++ -o payd payd.cpp
+mv payd /usr/local/bin/
 ```
 
 ## Usage
 Payd returns a new hourly rate of pay each day.
 ```
-./payd DAY WORTH
+payd DAY WORTH
 ```
 Asks for two variables: day on task and value-added for the day.
 
-Example: `./payd 2 100`
+Example: `payd 2 100`
 Read: On day 2 of task you/I gave 100% towards the solution needed.
 
 Whether it is the employee, the employer, or some negotiated final value between the two which determines the worth of the work performed is a matter left to the parties involved.
