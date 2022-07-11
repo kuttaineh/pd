@@ -13,7 +13,7 @@ For project managers and software engineers to prepare good works in advance: th
 git clone https://github.com/kuttaineh/payd.git
 cd payd
 g++ -o payd payd.cpp
-mv payd /usr/local/bin/
+sudo mv payd /usr/local/bin/
 ```
 
 ## Usage
