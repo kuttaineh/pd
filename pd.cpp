@@ -1,8 +1,8 @@
-// payd: An amorative Pay determiner
+// pd: An amorative pay determiner
 // by: Rammy Kuttaineh http://m.me/Rammy
 // inputs: day on task, today's value-added.
 // description: starting at a base rate of pay
-//              payd allows you to increase
+//              pd allows you to increase
 //              your level of compensation.
 
 #include <iostream>
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 
 int printUsage(float Pay)
 {
-    cout << "Usage: payd DAY WORTH\n"; // day on task, worth of value added
+    cout << "Usage: pd DAY WORTH\n"; // day on task, worth of value added
     cout << "Current pay rate: ₿" << Pay << endl; // else initial
     return 1;
 }
