@@ -17,7 +17,7 @@ sudo mv pd /usr/local/bin/
 ```
 
 ## Usage
-pd (pronounced: paid) returns a new hourly rate of each day.
+pd (pronounced: paid) returns a new hourly rate of pay each day.
 ```
 pd DAY WORTH
 ```
