@@ -10,14 +10,14 @@ For project managers and software engineers to prepare good works in advance: th
 
 ## Installation
 ```
-git clone https://github.com/kuttaineh/payd.git
+git clone https://github.com/kuttaineh/pd.git
 cd pd
 g++ -o pd pd.cpp
 sudo mv pd /usr/local/bin/
 ```
 
 ## Usage
-Payd returns a new hourly rate of pay each day.
+pd (pronounced: paid) returns a new hourly rate of each day.
 ```
 pd DAY WORTH
 ```
