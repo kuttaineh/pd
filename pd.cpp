@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
     else
     {
         int Day = ((strtod(argv[1], NULL))-1); // accounting for C's 0 index
+	    
 	// multiply first input by average # of coding hours in a standard day
         float D = Day * STDDAY;
 
@@ -34,7 +35,7 @@ int main(int argc, char *argv[])
 	else // determine hourly rate of interest
             Worth = strtod(argv[2], NULL) / 100 / STDDAY;
             for (float hours = D; hours > 0; hours-- )
-             Pay = Pay * Worth + Pay;
+		Pay = Pay * Worth + Pay;
         cout << "Hourly pay ₿" << Pay << endl; // display new hourly rate
         responsecode = 0;
     }
