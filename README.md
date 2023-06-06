@@ -12,7 +12,7 @@ For project managers and software engineers to prepare good works in advance: th
 ```
 git clone https://github.com/kuttaineh/pd.git
 cd pd
-g++ -o pd pd.cpp
+make pd
 sudo mv pd /usr/local/bin/
 ```
 
