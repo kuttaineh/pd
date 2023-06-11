@@ -16,6 +16,14 @@ make pd
 sudo mv pd /usr/local/bin/
 ```
 
+## Alternate installation
+Select the green [ <> Code ] button, select Download ZIP, and extract.
+Open Terminal and paste the following line. You will likely be prompted for your user password to complete the file move into the system's pathed /usr/local/bin directory.
+```
+cd Downloads/pd/ && make pd && sudo mv pd /usr/local/bin/
+```
+If you don't want to move the file into one of your pathed directories then you can ```mv pd ~/``` and then run it from Terminal by typing ./pd or ~/pd followed by inputs.
+
 ## Usage
 pd (pronounced: paid) returns a new hourly rate of pay each day.
 ```
