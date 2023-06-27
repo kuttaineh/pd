@@ -22,7 +22,7 @@ Open Terminal and paste the following line. You will likely be prompted for your
 ```
 cd Downloads/pd-master/ && make pd && sudo mv pd /usr/local/bin/
 ```
-If you don't want to move the file into one of your pathed directories then you can call up the directory it resides within (ex. ```cd Downloads/pd``` or ```cd Downloads/pd-master/```) and then run it from Terminal by typing ./pd or, as an alternate solution, move it to your home directory ```mv pd ~/``` thus eliminating the need to traverse to the location of the file; in this case you could run the program as soon as you've launched Terminal by typing either ./pd or ~/pd followed by inputs.
+If you don't want to move the file into one of your pathed directories then you can call up the directory it resides within (ex. ```cd pd``` or ```cd Downloads/pd-master/```) and then run it from Terminal by typing ./pd or, as an alternate solution, move it to your home directory ```mv pd ~/``` thus eliminating the need to traverse to the location of the file; in this case you could run the program as soon as you've launched Terminal by typing either ./pd or ~/pd followed by inputs.
 
 ## Usage
 pd (pronounced: paid) returns a new hourly rate of pay each day.
