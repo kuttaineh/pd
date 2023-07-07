@@ -22,7 +22,7 @@ Open Terminal and paste the following line. You will likely be prompted for your
 ```
 cd Downloads/pd-master/ && make pd && sudo mv pd /usr/local/bin/
 ```
-If you don't want to move the file into one of your pathed directories then you can call up the directory it resides within (ex. ```cd pd``` or ```cd Downloads/pd-master/```) and then run it from Terminal by typing ```./pd```. Otherwise you could leave it and setup an alias to either```alias pd='pd/pd'``` or, if the ZIP method was utilized, ```alias pd='Downloads/pd/pd'```.
+If you don't want to move the file into one of your pathed directories then you can call up the directory it resides within (ex. ```cd pd``` or ```cd Downloads/pd-master/```) and then run it from Terminal by typing ```./pd```. Otherwise you could leave it and setup an alias to either```alias pd='~/pd/pd'``` or, if the ZIP method was utilized, ```alias pd='~/Downloads/pd/pd'```.
 
 ## Usage
 pd (pronounced: paid) returns a new hourly rate of pay each day.
