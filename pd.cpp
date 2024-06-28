@@ -2,7 +2,7 @@
 // by: Rammy Kuttaineh http://m.me/Rammy
 // inputs: day on task, today's value-added.
 // description: starting at a base rate of pay
-//              pd allows you to increase
+//              pd enables you to increase
 //              your level of compensation.
 
 #include <iostream>
